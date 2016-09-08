@@ -21,7 +21,7 @@ body {
 	color:#000000;
 	/*background-image:url(../images/background.jpg);*/	
 	background-repeat:repeat;
-	background-color:blue;  /*I set background-color in case the image doesn't load*/
+	background-color:red;  /*I set background-color in case the image doesn't load*/
 }
 
 
