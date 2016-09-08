@@ -15,7 +15,7 @@ function submitMessage()
 	if (name.length < 2)
 	{
 		//error msg
-		str += "Please enter valid name (at least 2 characters)";		
+		str += "Please enter VALID name (at least 2 characters)";		
 	}
 	else
 	{
