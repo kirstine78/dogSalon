@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*zero out*/
+* {
+	margin:0;
+    padding:0;
+}
+
+/*For font I will put in font-family. 
+The list of font options ensures that 
+the page will degrade gracefully*/ 
+
+/*Main body text*/
+body {
+	width:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:100%;	
+	font-weight:normal;
+	color:#000000;	
+	background-image:url(../images/background.jpg);
+	background-repeat:repeat;
+	background-color:#6600CC;  /*I set background-color in case the image doesn't load*/
+}
+
+
+/*I will divide the page in 3 main sections, header, section, and footer*/
+header {
+	width: 100%;
+	padding-bottom:0px;
+	padding-top:10px;
+}
+
+section {
+	width:100%;
+	padding-bottom:30px;
+}
+
+footer {
+	width: 100%;
+	margin-top:2em;
+	padding-top:7px;
+	padding-bottom:2em;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.125em;  /*18px/16=1.125*/
+	color:#FFFFFF;
+	background-color:#404040;
+}
+
+p {
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height:2em;
+}
+
+
+/*img related*/
+.logo_image {
+	/*display: block;*/
+	width:100%;
+	height:auto;
+	padding-bottom:0px;
+}
+
+.img_float_right {
+	float:right;
+	margin-left:10px;
+	margin-bottom:10px;
+	width:35%;
+	height:auto;
+}
+
+
+/*video*/
+.video {
+	margin-bottom:3em;
+	width:100%;
+	height:100%;
+}
+
+
+/*the main Pagetitle*/
+#page_title {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:3.125em; /*50px/16=3.125*/
+	font-weight:bold;
+	padding-top:35px;
+	padding-bottom:35px;
+	
+	color:#000000; 
+}
+
+/*Sub headings1 (Subtitle1)*/
+h1 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.5em;  /*24px/16=1.5*/
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:#000000;
+}
+ 
+/*Sub headings2 (Subtitle2)*/
+h2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.25em;  /*20px/16=1.25*/
+	font-weight:bold;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:#000000;
+}
+ 
+/*Sub headings3 (Subtitle3)*/
+h3 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;  /*16px/16=1*/
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:#000000;
+}
+
+
+/*Navigation bar, make class*/
+.navigation_bar {
+	width:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.125em;  /*18px/16=1.125*/
+	padding-top:7px;
+	color:#FFFFFF;
+	background-color:black;
+}
+ 
+center_navigation_link {
+	text-align:center;
+}
+
+
+/*Breadcrumb text, make class*/
+.breadcrumb {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.875em;  /*14px/16=0.875*/
+	padding-top:18px;
+	padding-bottom:18px;
+	color:#000000;
+}
+
+ 
+/*Button, make classes*/
+.button_pink {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.875em;  /*14px/16=0.875*/
+	font-weight:bold;
+	background-color:#f919bd;
+	padding:15px;
+	margin-top:10px;
+	border-radius:15px;
+	color:#FFFFFF;
+}
+
+.button_pink:hover {
+	background-color:#5519f9;
+}
+
+
+/*for the footer on every page*/
+.table_footer {
+	padding-top:10px; 
+	padding-bottom:10px;
+	width:100%;
+}
+
+.footer_col_a {
+	width:25%;
+	text-align:left;
+}
+
+.footer_col_b {
+	width:30%;
+}
+
+.footer_col_c {
+	width:45%;
+	text-align:right;
+}
+
+#footers_table_footer {
+	text-align:center;
+	padding-top:10px;
+	font-size:16px;
+	font-weight:normal;
+}
+
+
+/*classes to align text*/
+.align_text_right {
+	text-align:right;
+}
+
+.align_text_left {
+	text-align:left;
+}
+
+.vertical_align {
+	vertical-align:top;
+}
+
+.center_align {
+	text-align:center;	
+}
+
+
+/*links in main content*/
+a {
+	text-decoration:underline;
+	color:#000000;
+}
+
+a:hover {
+	font-weight:bold;
+}
+
+
+/*Go to top link*/
+.link_button_purple {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.875em;  /*14px/16=0.875*/
+	font-weight:bold;	
+	text-decoration:none;
+	background-color:#5519f9;
+	color:#FFFFFF;
+	padding:15px;
+	border-radius:15px;
+	color:#FFFFFF;
+}
+
+.link_button_purple:hover {
+	background-color:#f919bd;
+}
+
+
+/*email in footer*/
+.footer_email {
+	color:#FFFFFF;
+}
+
+
+/*link in nav bar*/
+.nav_link {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.nav_link:hover {
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+/*to keep focus link in navigation bar bold and underlined*/
+.focus {
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+
+li {
+    float:left;
+}
+
+
+.input_margin {
+	margin-top:1em;
+	margin-bottom:2em;
+}
+
+
+/*change layout based on screen size*/
+@media only screen and (max-width: 800px) {
+	.navigation_bar {
+		font-size:0.875em;  /*18px/16=1.125*/
+	}
+	
+	footer {
+		font-size:12px;
+	}
+	
+	#footers_table_footer {
+		font-size:12px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	header {
+		display:none;
+	}
+
+	.navigation_bar {
+		font-size:0.625em;  /*10px/16=0.625*/
+	}
+	
+	.service_other, .service_optional {
+		font-size:12px;
+	}
+	
+	footer {
+		display:none;		
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.navigation_bar {
+		font-size:0.5em;  /*8px/16=0.5*/
+	}
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!--
+	Name: 	Kirstine B. Nielsen
+    ID:		100527988
+    Date:	01.11.2015
+-->
+<title>Emily's</title>
+
+<!--link external stylesheets-->
+<link rel="stylesheet" type="text/css" href="../css/main_style.css"/>
+<link rel="stylesheet" type="text/css" href="../css/grid_columns.css"/>
+
+<!--link external js files-->
+<script type="text/javascript" src="../js/breadcrumb.js"></script>
+<script src="../js/message_sent.js"></script>
+</head>
+
+<body onload="doBreadcrumb('contact');">
+
+<div class="grid">
+
+    <header>
+        <div class="col_1 col_inline_block"></div>
+        <div class="col_10 col_inline_block">
+            <div class="center_align">
+                <img src="../images/logo_v4.jpg" class="logo_image" alt="Business logo" />
+            </div>
+        </div>
+        <div class="col_1 col_inline_block"></div>
+    </header>
+    
+    <section><!--start section-->
+        
+        <div class="navigation_bar" id="top_of_page">
+            <hr />
+                    
+            <div class="col_1 col_inline_block"></div>
+            <div class="col_10 col_inline_block" style="padding-top:17px;">
+                <ul style="list-style-type:none;">
+                    <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link" href="../index.html">Home</a></li> 
+                    <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link" href="about.html">About</a></li> 
+                    <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link" href="services.html">Services</a></li>
+                    <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link" href="products.html">Products</a></li> 
+                    <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link" href="training.html">Training</a></li>  
+                    <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link focus" href="contact.html">Contact</a></li>      
+                </ul>
+            </div>
+            <div class="col_1 col_inline_block"></div>
+        </div><!--end div class="navigation_bar"--> 
+        
+        
+        
+        <div class="col_1 col_inline_block"></div>
+        <div class="col_10 col_inline_block">
+        
+            <p class="breadcrumb" id="breadcrumb_trail"></p>
+            
+            <p id="page_title">Contact</p>
+            
+            <img class="img_float_right" src="../images/map.jpg" width="1026" height="860" alt="street map" />
+            
+            <p>You are welcome to e-mail us by filling out the form below, call us, or drop by to have a chat with us.</p>
+            <h3>Address:</h3>
+            xx Somestreetname St<br/>
+            Suburb 9999, VIC<br/><br/>
+            <h3>Phone:</h3> 
+            0000000000
+            <p style="margin-bottom:2em;">To send us an e-mail please fill out the form below and submit </p>
+            
+            
+            <form method="get" onSubmit="submitMessage();">
+                <!--textbox input-->
+                <label for="name_input">Name *</label><br/><input class="input_margin" name="name_input" type="text" id="name_input" size="30" /><br/><br/>
+                <label for="email_input">E-mail *</label><br/><input class="input_margin" name="email_input" type="email" id="email_input" size="30" /><br/><br/>
+                
+                <!--radio buttons-->
+                Are you a regular customer?<br/><br/>
+                <input name="rad_regular_customer" type="radio" id="rad_yes" value="yes" checked="checked"/>
+                <label for="rad_yes">Yes</label><br/><br/>
+                <input name="rad_regular_customer" type="radio" id="rad_no" value="no" />
+                <label for="rad_no">No</label><br/><br/><br/>                
+                
+                <!--select menu (drop down menu)-->
+                <label for="subject_input">Subject *</label><br/>
+                <select class="input_margin"  name="subject_input" id="subject_input">
+                    <option value="services" selected="selected">Services</option>
+                    <option value="products">Products</option>
+                    <option value="other">Other</option>
+                </select><br/><br/>
+                       
+                <!--textarea input-->        
+                <label for="message_input">Message *</label><br /><textarea class="input_margin" name="message_input" id="message_input" cols="33" rows="10"></textarea><br/><br/>                
+                
+                <!--check box-->
+                <input name="chk_special_deals" type="checkbox" id="chk_special_deals" checked="checked" value="" /> <label for="chk_special_deals">Yes, I would like to receive e-mails about special deals</label><br/><br/>     
+                
+                <!--buttons-->
+                <button class="button_pink" type="reset">Reset</button>
+                <button class="button_pink" type="submit">Submit</button>
+            
+            </form>
+            
+            <div class="center_align" style="margin-top:70px;"><a href="#top_of_page" class="link_button_purple">Go to Top</a></div>
+        </div>
+        <div class="col_1 col_inline_block"></div>
+        
+    </section><!--end section-->
+        
+                        
+    <footer>
+        <hr />
+        <br/>
+        <div class="col_1 col_inline_block"></div>            
+        <div class="col_10 col_inline_block">
+              
+            <table class="table_footer">
+            	<caption>Info about opening hours and contact details</caption>
+                
+                <thead>
+                    <tr>
+                        <th colspan="2" class="footer_col_a">Opening hours</th>
+                        <th class="footer_col_c vertical_align">Phone: 0000000000</th>
+                    </tr>
+                </thead>                
+                <tfoot>
+                    <tr>
+                        <th colspan="3" class="footer_col_a" id="footers_table_footer">We look forward to hear from you soon!</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td class="footer_col_a">Monday - Friday:</td>
+                        <td colspan="2" class="footer_col_b">8am - 6pm</td>
+                    </tr>
+                    <tr>
+                        <td class="footer_col_a">Saturday:</td>
+                        <td class="footer_col_b">9am - 12pm (noon)</td>
+                        <td class="footer_col_c">Email: <a class="footer_email" href="mailto:someEmail@email.com">someEmail@email.com</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+        </div>
+        <div class="col_1 col_inline_block"></div>
+        
+    </footer>
+
+</div><!--end grid-->
+</body>
+</html>
+

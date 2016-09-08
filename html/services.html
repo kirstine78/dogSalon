@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!--
+	Name: 	Kirstine B. Nielsen
+    ID:		100527988
+    Date:	01.11.2015
+-->
+<title>Emily's</title>
+
+<!--link external stylesheets-->
+<link rel="stylesheet" type="text/css" href="../css/main_style.css"/>
+<link rel="stylesheet" type="text/css" href="../css/grid_columns.css"/>
+
+<!--link external js files-->
+<script type="text/javascript" src="../js/breadcrumb.js"></script>
+
+<!--embedded css-->
+<style type="text/css">
+.service_optional {
+	width:60%;
+}
+
+.service_other {
+	width:100%;
+}
+
+.th_col_a_services_optional {
+	width:65%;
+}
+
+.th_col_b_services_optional {
+	width:35%;
+}
+
+.th_col_a_services_other {
+	width:46%;
+}
+
+.th_col_b_services_other {
+	width:18%;
+}
+
+.header_row {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.services_table, .services_table th, .services_table td {
+	border-collapse: collapse;
+	border: 2px solid #5519f9;
+}
+
+.services_table th, .services_table td {
+	border-collapse: collapse;
+	border: 1px solid #5519f9;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.services_table td {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.services_table tr:nth-of-type(odd) {
+	background-color:#f919bd;
+}
+</style>
+</head>
+
+<body onload="doBreadcrumb('services');">
+	
+    <div class="grid">
+
+        <header>
+            <div class="col_1 col_inline_block"></div>
+            <div class="col_10 col_inline_block">
+                <div class="center_align">
+                    <img src="../images/logo_v4.jpg" class="logo_image" alt="Business logo" />
+                </div>
+            </div>
+            <div class="col_1 col_inline_block"></div>
+        </header>
+        
+        <section><!--start section-->
+        	
+            <div class="navigation_bar" id="top_of_page">
+				<hr />
+                    
+                <div class="col_1 col_inline_block"></div>
+        		<div class="col_10 col_inline_block" style="padding-top:17px;">
+                	<ul style="list-style-type:none;">
+                        <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link" href="../index.html">Home</a></li> 
+                        <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link" href="about.html">About</a></li> 
+                        <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link focus" href="services.html">Services</a></li>
+                        <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link" href="products.html">Products</a></li> 
+                        <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link" href="training.html">Training</a></li>  
+                        <li class="col_2 col_inline_block" style="text-align:center;"><a class="nav_link" href="contact.html">Contact</a></li>   
+                    </ul>
+                </div>
+                <div class="col_1 col_inline_block"></div>
+            </div><!--end div class="navigation_bar"--> 
+            
+            
+            
+        	<div class="col_1 col_inline_block"></div>
+        	<div class="col_10 col_inline_block">
+            
+                <p class="breadcrumb" id="breadcrumb_trail"></p>
+                
+                <p id="page_title">Services</p>  
+                
+                <h1>Grooming: $66.00 per hour*</h1>
+                <br/>                
+                
+                    <img class="img_float_right" src="../images/dog2.jpg" alt="Dog with towel" />
+                    
+                    <table class="services_table service_optional">
+                    	<caption>Info Services</caption>
+                        <tr>
+                            <th class="align_text_left th_col_a_services_optional header_row">Optional Services</th>
+                            <th class="align_text_right th_col_b_services_optional">Price</th>
+                        </tr>
+                        <tr>
+                            <td>Express Grooming</td>
+                            <td class="align_text_right">$10.00</td>
+                        </tr>
+                        <tr>
+                            <td>Flea Treatment from</td>
+                            <td class="align_text_right">$5.00</td>
+                        </tr>
+                        <tr>
+                            <td>Anal Glands</td>
+                            <td class="align_text_right">$5.00</td>
+                        </tr>
+                        <tr>
+                            <td>Shed Less Program from</td>
+                            <td class="align_text_right">$5.00</td>
+                        </tr>
+                        <tr>
+                            <td>Pet Cologne</td>
+                            <td class="align_text_right">Free</td>
+                        </tr>
+                        <tr>
+                            <td>Treatment Shampoo</td>
+                            <td class="align_text_right">$3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Treatment Conditioner</td>
+                            <td class="align_text_right">$3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Aromatherapy Rinse</td>
+                            <td class="align_text_right">$3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Pet Bows</td>
+                            <td class="align_text_right">Free</td>
+                        </tr>
+                    </table>
+                    
+                	<br/>
+                	<br/>
+                    
+                    <table class="services_table service_other">
+                    	<caption>Info Other Services</caption>
+                        <tr>
+                            <th class="align_text_left th_col_a_services_other header_row">Other Dog Grooming Services</th>
+                            <th class="align_text_right th_col_b_services_other">Small</th>
+                            <th class="align_text_right th_col_b_services_other">Medium</th>
+                            <th class="align_text_right th_col_b_services_other">Large</th>
+                        </tr>
+                        <tr>
+                            <td class="align_text_left">Nail Trimming</td>
+                            <td class="align_text_right">$6.00</td>
+                            <td class="align_text_right">$10.00</td>
+                            <td class="align_text_right">$12.00</td>
+                        </tr>
+                        <tr >
+                            <td class="align_text_left">Nail Trimming and Filing</td>
+                            <td class="align_text_right">$8.50</td>
+                            <td class="align_text_right">$12.50</td>
+                            <td class="align_text_right">$15.50</td>
+                        </tr>
+                        <tr>
+                            <td class="align_text_left">Nail Trimming, Face &amp; Feet Tidy Up</td>
+                            <td class="align_text_right">$15.50</td>
+                            <td class="align_text_right">$22.00</td>
+                            <td class="align_text_right">$33.00</td>
+                        </tr>
+                        <tr>
+                            <td class="align_text_left">Worming Treatment</td>
+                            <td class="align_text_right">from $7.00</td>
+                            <td class="align_text_right">from $7.00</td>
+                            <td class="align_text_right">from $7.00</td>
+                        </tr>
+                    </table>
+                
+                <br/>
+                <br/>
+                
+                <p>* With a minimum charge of $40. Discount of 10% for regular customers and your pet is kept in good condition. Extra charge of 10% if pet is in a bad condition or is difficult to handle.</p>
+                
+                <div class="center_align" style="margin-top:70px;"><a href="#top_of_page" class="link_button_purple">Go to Top</a></div>
+            </div>
+        	<div class="col_1 col_inline_block"></div>
+            
+        </section><!--end section-->
+        
+                        
+        <footer>
+            <hr />
+            <br/>
+            <div class="col_1 col_inline_block"></div>            
+            <div class="col_10 col_inline_block">
+              
+            <table class="table_footer">
+            	<caption>Info about opening hours and contact details</caption>
+                
+                <thead>
+                    <tr>
+                        <th colspan="2" class="footer_col_a">Opening hours</th>
+                        <th class="footer_col_c vertical_align">Phone: 0000000000</th>
+                    </tr>
+                </thead>                
+                <tfoot>
+                    <tr>
+                        <th colspan="3" class="footer_col_a" id="footers_table_footer">We look forward to hear from you soon!</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td class="footer_col_a">Monday - Friday:</td>
+                        <td colspan="2" class="footer_col_b">8am - 6pm</td>
+                    </tr>
+                    <tr>
+                        <td class="footer_col_a">Saturday:</td>
+                        <td class="footer_col_b">9am - 12pm (noon)</td>
+                        <td class="footer_col_c">Email: <a class="footer_email" href="mailto:someEmail@email.com">someEmail@email.com</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            </div>
+            <div class="col_1 col_inline_block"></div>
+            
+        </footer>
+    
+    </div><!--end grid-->
+
+</body>
+</html>
