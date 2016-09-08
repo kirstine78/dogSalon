@@ -18,9 +18,8 @@ body {
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:100%;	
 	font-weight:normal;
-	color:#000000;	
-	/*background-image:url(../images/background.jpg);*/
-	
+	color:#000000;
+	/*background-image:url(../images/background.jpg);*/	
 	background-repeat:repeat;
 	background-color:blue;  /*I set background-color in case the image doesn't load*/
 }
